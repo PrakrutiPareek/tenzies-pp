@@ -1,12 +1,43 @@
-# React + Vite
+# Tenzies Game 🎲
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun dice game built with **React and Vite**.  
+Roll until all dice are the same. Click a die to hold it in place between rolls.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Roll 10 dice until they all match
+- Click to **hold/unhold** dice
+- Win condition detection
+- Confetti celebration on win 🎉
+- Responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Screenshot
+
+![Tenzies Screenshot](/public/Images/tenzies_screenshot.png)
+
+---
+
+## 🌐 Live Demo
+
+🔗 [Play on Netlify](https://tenzies-game-pp.netlify.app)
+
+---
+
+## 🛠️ Technologies Used
+
+- React
+- Vite
+- CSS
+
+---
+
+## 📬 Contact
+
+👩‍💻 Created by **Prakruti Pareek**
+
+- GitHub: [PrakrutiPareek](https://github.com/PrakrutiPareek)
+- Portfolio: [prakruti-pareek-portfolio.netlify.app](https://prakruti-pareek-portfolio.netlify.app)
