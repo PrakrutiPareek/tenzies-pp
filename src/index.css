@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #f6e4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-game {
+  background-color: #f6bdd1;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  padding: 5px 25px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  background-color: #f6e4f6;
+  color: #8b575c;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.instruction {
+  margin-top: 0.4rem;
+  width: 22rem;
+  font-size: 1rem;
+  color: #333836;
+  text-align: center;
+  padding: 0 10px;
+  line-height: 1.4;
+}
+
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+}
+
+.dice-container > button {
+  width: 2.24rem;
+  height: 2.24rem;
+  background-color: #ffffff;
+  border-radius: 0.24rem;
+  border: none;
+  box-shadow: 0px 2px 2px 0px #8b575c;
+  color: #9b6467;
+  font-size: 1.28rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.dice-container > button:hover,
+.roll-dice:hover {
+  box-shadow: 0px 4px 10px 0px #0000005e;
+}
+.dice-container > button:active,
+.roll-dice:active {
+  box-shadow: 0px 1px 3px 0px #0000005e;
+  transform: translateY(2px);
+}
+
+.roll-dice {
+  margin-top: 1.6rem;
+  width: auto;
+  padding: 6px 21px;
+  height: 2.24rem;
+  font-size: 1.02rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.24rem;
+  background-color: #8b575c;
+  color: #f6e4f6;
+  box-shadow: 0px 3.2px 7.68px 0px #0000002e;
+}
+
+.congrats {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #4bb543;
+  text-shadow: 1px 1px 2px #0000002e;
+}
