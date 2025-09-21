@@ -20,6 +20,7 @@ main {
 }
 
 .main-game {
+  margin-top: 30px;
   background-color: #f6bdd1;
   width: 25rem;
   height: 25rem;
@@ -95,8 +96,8 @@ main {
 }
 
 .congrats {
-  margin-top: 1rem;
   font-size: 1.5rem;
   color: #4bb543;
   text-shadow: 1px 1px 2px #0000002e;
+  margin-bottom: 0;
 }

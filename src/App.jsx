@@ -49,7 +49,9 @@ function App() {
 
   return (
     <main>
-      {gameWon && <Confetti width={1250} />}
+      {gameWon && (
+        <Confetti width={1250} recycle={false} numberOfPieces={2000} />
+      )}
       {gameWon && <h2 className="congrats">Congratulations...! You Won!</h2>}
 
       <section className="main-game">

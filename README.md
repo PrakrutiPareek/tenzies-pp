@@ -23,7 +23,7 @@ Roll until all dice are the same. Click a die to hold it in place between rolls.
 
 ## 🌐 Live Demo
 
-🔗 [Play on Netlify](https://tenzies-game-pp.netlify.app)
+🔗 [Play on Netlify](https://tenzies-pp.netlify.app)
 
 ---
 
